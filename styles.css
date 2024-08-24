@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #0a0e1a, #1b2338);
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #0f1424;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ffcc00; 
+    text-decoration: underline;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #1b2338;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #ffcc00;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #d1d1d1;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #0a0e1a;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cta-button:hover {
+    background-color: #ffffff; /* Change to a different color on hover */
+    color: #0a0e1a; /* Text color on hover */
+}
+.about, .events, .contact {
+    padding: 50px 20px;
+    background-color: #1b2338;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141a2b;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #0a0e1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd633;
+}
